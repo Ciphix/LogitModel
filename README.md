@@ -88,3 +88,9 @@ We have learned the ease of implementing custom code into Custom Activities for 
 A Logit model describes a non-linear regression,in this short explanation we assume that the reader knows what regression is. The goal is to perform a forecast where the variable we want to predict (dependent variable) is either a 0 or a 1 (binary). We could perform a standard linear regression, however since the linear model works better on real dependent variables and not binary ones we have come up with a better solution.
 
 The red line in the left pane of the image shown above is a linear model used on a binary dependent variable, this is a linear probability model (LPM). Note that the fit of this line is bad and rather awkward. Instead of a linear relation between the dependent variable and the regressors, the logit model uses the logistic probability function to determine the relationship between the dependent and the independent variables. Hence the values of the estimates of the dependent variable can be interpreted as the probability of the dependent variable attaining the value 1. We are now able to properly specify a model for a binary dependent variable, hence we are also able to make predictions with the model, which satisfies our main objective of this custom UiPath activity.
+
+## Credits
+**Sebastiaan Smits**
+**Bas van der Pol**
+
+Ciphix B.V. 2018-2019
