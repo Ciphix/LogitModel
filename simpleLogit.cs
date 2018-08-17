@@ -22,7 +22,7 @@ namespace Ciphix.MachineLearning
         [Category("Input"), Description("The array with regressor values needed to predict the binary dependent variable"), RequiredArgument]
         public InArgument<double[]> inputValues { get; set; }
 
-        [Category("Output"), Description("A boolean representing the binary choise predicted by the logit model")]
+        [Category("Output"), Description("A boolean representing the binary choice predicted by the logit model")]
         public OutArgument<bool> Result { get; set; }
 
         [Category("Output"), Description("The structure with diagnostics for the model and prediction. Attributes: Summary, Regressors, Statistics, Prediction, PredictionStdError")]
