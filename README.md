@@ -91,6 +91,7 @@ The red line in the left pane of the image shown above is a linear model used on
 
 ## Credits
 **Sebastiaan Smits**
+
 **Bas van der Pol**
 
 Ciphix B.V. 2018-2019
