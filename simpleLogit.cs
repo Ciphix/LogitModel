@@ -67,7 +67,7 @@ namespace Ciphix.MachineLearning
                     }
                     else
                     {
-                        throw new System.ArgumentException("The first column can contain only 0 or 1 since this is the regressor");
+                        throw new System.ArgumentException("The first column can contain only 0 or 1");
                     }
                 }
                 else if (dtRow[0] is bool || dtRow[0] is double || dtRow[0] is int)
@@ -77,7 +77,7 @@ namespace Ciphix.MachineLearning
                 }
                 else
                 {
-                    throw new System.ArgumentException("The first column can contain only 0 or 1 since this is the regressor");
+                    throw new System.ArgumentException("The first column can contain only 0 or 1");
                 }
             }
 
@@ -143,7 +143,7 @@ namespace Ciphix.MachineLearning
 
             if (inRow.Count() != numberOfCols - 1)
             {
-                throw new System.ArgumentException("Please supply the right amount elements for the prediction");
+                throw new System.ArgumentException("Please supply the correct amount of elements for the prediction");
             }
 
             double[][] predIn = new double[1][];
@@ -236,3 +236,4 @@ namespace Ciphix.MachineLearning
     }
 
 }
+
